@@ -32,3 +32,28 @@
     padding: 0 50px;
     align-items: center;
 }
+
+/* banner design */
+
+.banner{
+    max-width:1140px;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    font: size 65px;;
+    font-weight: bold;
+}
+.banner-text{
+    margin-top: 150px;
+}
+.banner-button{
+    margin-bottom: 150px;
+    margin-top: 35px;
+}
+
+/* header design */
+
+.header{
+    background-image:url(Assets/Hero-bg.png);
+
+}
