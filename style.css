@@ -10,6 +10,12 @@
     font-weight: 900;
 }
 
+main{
+    max-width: 1140px;
+    margin: 120px auto;
+
+}
+
 /* button style */
 .button{
     color: white;
@@ -55,5 +61,28 @@
 
 .header{
     background-image:url(Assets/Hero-bg.png);
+}
+
+/* webflow section */
+
+.main-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:250px;
+}
+
+.webflow-title{
+    font-size: 42px;;
+    font-weight:bold ;
+}
+.webflow-paragraph{
+    font-size:24px; ;
+    font-weight:normal ;
+    color: #252432;
+    margin-bottom: 20px;
+}
+.webflow-image{
+    border-radius: 48px;
 
 }
