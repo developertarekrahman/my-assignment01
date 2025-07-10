@@ -4,6 +4,11 @@
   font-weight: normal;
   font-style: normal;
 }
+.logo{
+    color:#4E47FF ;
+    font: size 34px; ;
+    font-weight: 900;
+}
 
 /* button style */
 .button{
@@ -14,4 +19,16 @@
     padding: 12px 36px;
     font-size: 16px;
     font-weight: bold;
+    height: 48px;
+} 
+
+/* Navbar design */
+
+.navbar{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
 }
