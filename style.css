@@ -227,7 +227,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:250px;
+    gap:70px;
     margin: 120px 0;
 }
 .block{
@@ -257,7 +257,7 @@ main{
 }
 
 .form-h1{
-    font-size:98px ;
+    font-size:97px ;
     font-weight: bold;
 
 
@@ -269,6 +269,7 @@ form label{
 
 
 form input[type="text"],input[type="email"] {
+    width: 500px;
     height: 40px;
     background-color: white;
     color: grey;
@@ -280,6 +281,7 @@ form input[type="text"],input[type="email"] {
     font-weight:normal ;
 }
 .form-textarea{
+    width: 500px;
     height: 120px;
     background-color: white;
     color: grey;
