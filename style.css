@@ -1,3 +1,10 @@
+body{
+    background-color: rgba(151, 213, 238, 0.254);
+    margin:0;
+    padding: 0;
+
+}
+
 .text-font{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -140,7 +147,7 @@ main{
 }
 
 .review{
-    background-color:rgba(238, 237, 237, 0.533);
+    background-color:white;
     width:350px ;
     padding: 24px;
     border-radius: 14px;
@@ -180,7 +187,7 @@ main{
 
 .ready-to-focus{
     padding: 70px 150px;
-    background-color:rgba(238, 237, 237, 0.533) ;
+    background-color:white ;
     align-items: center;
     text-align: center;
     margin-top: 120px;
@@ -263,7 +270,32 @@ main{
     height: 48px;
 
 }
+/* footer */
 
+.footer-div{
+    max-width:530px;
+    margin: 0 auto;
+    text-align: center;
+}
+.footer{
+    border: 1px solid grey;
+    background-color: white;
+    padding: 0 0 120px 0;
+
+}
+.footer-text{
+    margin-top: 120px;
+    font-size:100px ;
+    font-weight: 1000px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+.last-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 85px;
+    margin: 20px 0;
+}
 
     
 
